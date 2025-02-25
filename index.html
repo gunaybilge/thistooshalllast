@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Generative Music Radio</title>
+  <!-- Include p5.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <!-- Include Tone.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.39/Tone.js"></script>
+  <!-- Link to our sketch file -->
+  <script src="sketch.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #111;
+      font-family: sans-serif;
+      color: #fff;
+    }
+    /* Center the start button on the canvas */
+    #startButton {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px 20px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 5px;
+      background-color: #444;
+      color: #fff;
+      cursor: pointer;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <button id="startButton">start listening</button>
+</body>
+</html>
